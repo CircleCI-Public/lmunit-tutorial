@@ -17,7 +17,7 @@ The LMUnit API accepts three parameters:
 
 The LMUnit API returns a score that reprsents how closely the model response matches the natural language unit test.
 
-The natural langue expression of evaluations replaces more traditional NLP metrics or custom defined evaluation metrics.
+The natural language expression of evaluations replaces more traditional NLP metrics or custom defined evaluation metrics.
 
 ## Running the natural language tests
 
