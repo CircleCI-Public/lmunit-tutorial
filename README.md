@@ -25,7 +25,7 @@ The [evalset.jsonl](./evalset.jsonl) file contains a list of queries, responses,
 
 You can run the tests by running the following command: `python test_lmunit.py`
 
-In a larger application, you might structure the tests differently. For example if you wanted to regression test a common queries or prompts, you might only have the set of queries and the unit tests to run.
+In a larger application, you might structure the tests differently. For example if you wanted to regression test common queries or prompts, you might only have the set of queries and the unit tests to run.
 
 In your CI pipeline, you would sample from the AI model to get the response, send the query, sampled response, and unit tests to the LMUnit API, and then pass or fail based on a threshold or a significant change in the score from the current production version.
 
