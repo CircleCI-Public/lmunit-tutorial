@@ -5,8 +5,8 @@ This repository contains the code for running LMUnit tests in CircleCI to evalua
 ## Setup
 
 1. Clone the repository
-2. Install the required packages: `pip -r requirements.txt`
-3. Run the tests: `python -m unittest discover -s tests`
+2. Install the required packages: `pip install -r requirements.txt`
+3. Run the tests: `pytest --junitxml=junit.xml`
 
 ## Understanding the LMUnit API
 
