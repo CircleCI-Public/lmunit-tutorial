@@ -47,7 +47,7 @@ def test_evalset():
 
         for unit_test in unit_tests:
             unit_test_score = lmunit(query, response, unit_test)
-            assert unit_test_score >= 3.0, f"Failed unit test: \"{unit_test}\" for query: \"{query}\""
+            assert unit_test_score >= 3.0, f"Failed unit test: \"{unit_test}\" for query: \"{query}\""  #  Some tests will fail by design. Change the threshold to 1.0 for all tests to pass.
             time.sleep(1)  # wait to avoid rate limiting in the API
 
 
