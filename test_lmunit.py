@@ -4,7 +4,7 @@ import os
 from contextual import ContextualAI
 
 # Set up Contextual SDK
-contextual_api_key = os.environ.get("CONTEXTUAL_API_KEY")  # key-FZD4xgIqqBS8Hj73Yh3YRHqr2UzDG-qQ_LQV3BIf372sLee04
+contextual_api_key = os.environ.get("CONTEXTUAL_API_KEY")
 client = ContextualAI(api_key = contextual_api_key, base_url = "https://api.contextual.ai/v1")
 
 
